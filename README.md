@@ -1,5 +1,6 @@
 # Graph-Sampling
-Graph Sampling methods using cuAlias.
+Graph Sampling methods using cuAlias for GNN.
+
 #### Introduction
 1. main-deepwalk.cu and main-deepwalk-single.cu is a Graph Sampling algorithm using DeepWalk.
 2. main-sage.cu and main-sage-single.cu is a Graph Sampling algorithm using sage.The former uses a warp to process a point, while the latter uses a thread to process a point.
